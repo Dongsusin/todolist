@@ -1,6 +1,6 @@
 # 📝 To-Do List App
 
-**🚀 배포 링크**: [To-Do List 바로가기]
+**🚀 배포 링크**: [To-Do List 바로가기](https://charming-mooncake-7a75df.netlify.app/)
 
 React를 이용한 To-Do List 애플리케이션입니다. 할 일을 추가하고, 완료 상태를 체크하며, 할 일을 편집하거나 삭제할 수 있는 기능을 제공합니다.
 
