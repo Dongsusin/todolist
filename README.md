@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# 📝 To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**🚀 배포 링크**: [To-Do List 바로가기]
 
-## Available Scripts
+React를 이용한 To-Do List 애플리케이션입니다. 할 일을 추가하고, 완료 상태를 체크하며, 할 일을 편집하거나 삭제할 수 있는 기능을 제공합니다.
 
-In the project directory, you can run:
+<br>
+  <img src="./todolist.png"/>
+<br>
 
-### `npm start`
+## 사용 기술
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- React Hooks (useState, useEffect)
+- uuid (고유한 ID 생성)
+- 로컬 스토리지 (데이터 저장)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 주요 기능
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 할 일 추가: 입력창에 내용을 작성하고 'Enter' 또는 '추가' 버튼을 클릭하여 할 일을 추가할 수 있습니다.
+- 완료 상태 토글: 할 일을 완료 상태로 변경하고 스타일을 다르게 표시합니다.
+- 할 일 삭제: 각 할 일 항목을 개별적으로 삭제할 수 있습니다.
+- 할 일 편집: 더블 클릭하여 할 일을 수정할 수 있습니다.
+- 완료된 할 일 삭제: 완료된 할 일을 한 번에 삭제할 수 있습니다.
+- 다크 모드: 밝은 모드와 다크 모드 전환 기능을 제공합니다.
+- 실시간 시간 표시: 현재 시간이 1초마다 업데이트 되어 표시됩니다.
+- 로컬 스토리지 저장: 앱을 종료하고 다시 실행해도 할 일 목록이 유지됩니다.
