@@ -22,7 +22,7 @@ const App = () => {
     new Date().toLocaleTimeString()
   ); // 현재 시간
 
-  // ⏰ 1초마다 현재 시간 업데이트
+  // 1초마다 현재 시간 업데이트
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTime(new Date().toLocaleTimeString());
@@ -143,7 +143,7 @@ const App = () => {
     <div className={`app ${isDarkMode ? "dark" : ""}`}>
       <h1 className="app-title">{isDarkMode ? "🌙" : "☀️"} 오늘 할 일</h1>
       <button className="theme-toggle" onClick={toggleTheme}>
-        {isDarkMode ? "☀️ 밝은 모드" : "🌙 다크 모드"}
+        {isDarkMode ? "☀️ 라이트 모드" : "🌙 다크 모드"}
       </button>
 
       {/* 현재 시간 표시 */}
